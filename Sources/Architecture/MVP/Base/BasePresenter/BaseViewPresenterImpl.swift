@@ -9,4 +9,6 @@ import Foundation
 
 public class BaseViewPresenterImpl: BaseViewPresenter {
     weak var view: BaseView?
+    
+    public init() {}
 }
