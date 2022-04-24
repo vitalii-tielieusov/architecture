@@ -7,8 +7,8 @@
 
 import Foundation
 
-public class BaseViewPresenterImpl: BaseViewPresenter {
-    weak var view: BaseView?
+open class BaseViewPresenterImpl: BaseViewPresenter {
+    public weak var view: BaseView?
     
     public init() {}
 }
