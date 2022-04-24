@@ -7,6 +7,6 @@
 
 import Foundation
 
-extension BaseViewPresenter where Self: BaseViewPresenterImpl {
-    public func loadData() { }
+public extension BaseViewPresenter where Self: BaseViewPresenterImpl {
+    func loadData() { }
 }

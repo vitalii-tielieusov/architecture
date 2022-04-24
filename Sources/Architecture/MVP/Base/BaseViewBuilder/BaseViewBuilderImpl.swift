@@ -7,11 +7,11 @@
 
 import UIKit
 
-struct BaseViewBuilderImpl: BaseViewBuilder {
+public struct BaseViewBuilderImpl: BaseViewBuilder {
     
     init() { }
     
-    func build() -> UIViewController {
+    public func build() -> UIViewController {
         let presenter = BaseViewPresenterImpl()
         let vc = BaseViewControllerImpl(presenter: presenter)
         presenter.view = vc
