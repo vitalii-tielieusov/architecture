@@ -9,7 +9,7 @@ import UIKit
 
 open class BaseViewControllerImpl: UIViewController, BaseView {
 
-    var presenter: BaseViewPresenter?
+    public var presenter: BaseViewPresenter?
     
     required public init(presenter: BaseViewPresenter?) {
         self.presenter = presenter
