@@ -29,12 +29,10 @@ open class BaseViewControllerImpl: UIViewController, BaseView {
         
         setupSubviews()
         setupLayouts()
-        setupActions()
         
         presenter?.loadData()
     }
     
     open func setupSubviews() {}
     open func setupLayouts() {}
-    open func setupActions() {}
 }

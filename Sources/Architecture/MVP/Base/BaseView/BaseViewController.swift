@@ -16,7 +16,6 @@ public protocol BaseViewPattern: NSObjectProtocol {
     
     func setupSubviews()
     func setupLayouts()
-    func setupActions()
 }
 
 public protocol BaseViewAdditions {
