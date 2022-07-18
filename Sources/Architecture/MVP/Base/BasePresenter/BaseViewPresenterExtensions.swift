@@ -8,5 +8,5 @@
 import Foundation
 
 public extension BaseViewPresenter where Self: BaseViewPresenterImpl {
-    func loadData() { }
+    func viewDidLoad() { }
 }

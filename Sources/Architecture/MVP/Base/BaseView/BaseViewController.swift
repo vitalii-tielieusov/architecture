@@ -12,6 +12,8 @@ public protocol BaseView: BaseViewPattern, BaseViewAdditions {}
 
 public protocol BaseViewPattern: NSObjectProtocol {
     
+    var presenter: BaseViewPresenter? { get }
+    
     init(presenter: BaseViewPresenter?)
     
     func setupSubviews()

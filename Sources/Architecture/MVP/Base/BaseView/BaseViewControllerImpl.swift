@@ -9,7 +9,7 @@ import UIKit
 
 open class BaseViewControllerImpl: UIViewController, BaseView {
 
-    public var presenter: BaseViewPresenter?
+    open var presenter: BaseViewPresenter?
     
     required public init(presenter: BaseViewPresenter?) {
         self.presenter = presenter
@@ -30,7 +30,7 @@ open class BaseViewControllerImpl: UIViewController, BaseView {
         setupSubviews()
         setupLayouts()
         
-        presenter?.loadData()
+        presenter?.viewDidLoad()
     }
     
     open func setupSubviews() {}

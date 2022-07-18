@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol BaseViewPresenter: AnyObject {
-    func loadData()
+    func viewDidLoad()
 }

@@ -8,7 +8,9 @@
 import Foundation
 
 open class BaseViewPresenterImpl: BaseViewPresenter {
-    public weak var view: BaseView?
+    open weak var view: BaseView?
     
     public init() {}
+    
+    open func viewDidLoad() {}
 }
