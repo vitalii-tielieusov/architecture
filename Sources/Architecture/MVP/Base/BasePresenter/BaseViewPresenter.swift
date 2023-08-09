@@ -9,4 +9,5 @@ import Foundation
 
 public protocol BaseViewPresenter: AnyObject {
     func viewDidLoad()
+    func viewWillAppear()
 }

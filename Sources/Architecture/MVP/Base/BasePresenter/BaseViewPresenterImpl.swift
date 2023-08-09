@@ -13,4 +13,5 @@ open class BaseViewPresenterImpl: BaseViewPresenter {
     public init() {}
     
     open func viewDidLoad() {}
+    open func viewWillAppear() {}
 }

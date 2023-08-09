@@ -33,6 +33,12 @@ open class BaseViewControllerImpl: UIViewController, BaseView {
         presenter?.viewDidLoad()
     }
     
+    override open func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        presenter?.viewWillAppear()
+    }
+    
     open func setupSubviews() {}
     open func setupLayouts() {}
 }

@@ -9,4 +9,5 @@ import Foundation
 
 public extension BaseViewPresenter where Self: BaseViewPresenterImpl {
     func viewDidLoad() { }
+    func viewWillAppear() { }
 }
